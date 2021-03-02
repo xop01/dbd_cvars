@@ -1,4 +1,4 @@
-# Total number of commands: 2677
+# Total number of commands: 2527
 `Accessibility.Enable`
 ```
 If false, all queries from accessible APIs will be ignored. On some platforms, the application must be restarted in order to take effect.
@@ -429,127 +429,6 @@ The D3D12 RHI needs a static allocation of zeroes to use when streaming textures
 
 #
 
-`DBD.AllowGuidance`
-```
-If set to false, guidance won't be applied.
-```
-
-#
-
-`DBD.ChestItemOverride`
-```
-Force the chests to give you this item.
-```
-
-#
-
-`DBD.ClientSyncerPageSizeValue`
-```
-Set the number of elements to send at once on ClientSyncer. Enabled: 1 to 64. Disabled: 0
-```
-
-#
-
-`DBD.DebugDrainTimer`
-```
-Print the drain timer when true.
-```
-
-#
-
-`DBD.DebugFootStepAdjustment`
-```
-When not 0, show foot steps adjustment raycasts.
-```
-
-#
-
-`DBD.DebugFootSteps`
-```
-When not 0, show foot steps raycast.
-```
-
-#
-
-`DBD.DebugFootStepsDuration`
-```
-The duration in seconds of the foot steps debug.
-```
-
-#
-
-`DBD.DebugInteraction`
-```
-Visual interaction debug infos.
-```
-
-#
-
-`DBD.DisableEndOfMatchCall`
-```
-Disables kraken end of match call
-```
-
-#
-
-`DBD.DisableInvalidRoleCancellation`
-```
-Disables the cancellation of games due to invalid role.
-```
-
-#
-
-`DBD.EnableSteamPendingTransaction`
-```
-This will finalize the steam transaction but will not validate it, so the transaction remains in a pending state. Enabled: 1. Disabled: 0
-```
-
-#
-
-`DBD.ForceDisableServerCommands`
-```
-Force disabling server cheats.
-```
-
-#
-
-`DBD.ForceInitNewPlayerFailure`
-```
-Force the same behaviour as if InitNewPlayer failed for the game mode (e.g. an invalid URL is given to init a new player)
-```
-
-#
-
-`DBD.ForceInvalidRoleCancellation`
-```
-Forces the cancellation of games, with invalid role as the reason.
-```
-
-#
-
-`DBD.ForceItemAvailable`
-```
-Force all items to be available.
-0: off
-1: on
-```
-
-#
-
-`DBD.ForcedSurvivorStartItem`
-```
-The start item survivors will start with.
-```
-
-#
-
-`DBD.GenerationSeed`
-```
-The generation seed to use to generate the level. If smaller than 0, the generation seed is considered invalid.
-```
-
-#
-
 `DBD.MemoryProfiler.FileFlushDelay`
 ```
 Maximum delay at which file data should be flushed when recording traces to file.
@@ -560,20 +439,6 @@ Maximum delay at which file data should be flushed when recording traces to file
 `DBD.MemoryProfiler.SamplingRate`
 ```
 Number of memory samples to do per second.
-```
-
-#
-
-`DBD.SimulateKrakenSaveNoReturn`
-```
-When 1, simulate the Kraken SaveGame Callback is never called
-```
-
-#
-
-`DBD.SimulateKrakenSerializationError`
-```
-When 1, simulate an error during the Kraken SaveGame serialization.
 ```
 
 #
@@ -900,13 +765,6 @@ No description.
 `GameplayTags.PrintNetIndiceAssignment`
 ```
 Logs GameplayTag NetIndice assignment
-```
-
-#
-
-`HISM.MH.ForceMaterialOverrides`
-```
-If greater than zero, always override. If smaller than zero, never override.
 ```
 
 #
@@ -3262,15 +3120,6 @@ Minimum allocation granularity (in bytes) of each size list
 
 #
 
-`dbd.AllowPrivateMatchWithOnePlayer`
-```
-Allow private match with one player.
-0: off
-1: on
-```
-
-#
-
 `dbd.AmbushForcedForward`
 ```
 Amount of forced forward movement during ambush attack open phase 
@@ -3279,156 +3128,9 @@ f: Amount of forced forward movement during ambush attack open phase
 
 #
 
-`dbd.AudioListenerOnActor`
+`dbd.BearTrapPrintSelfUntrapAttemptRemaining`
 ```
-Temporary audio flag to set the audio listener on the actor or the camera (default to on actor).
-```
-
-#
-
-`dbd.AuthoritativeMovementForce`
-```
-Set the AuthoritativeMovementForce strength.
-
-```
-
-#
-
-`dbd.AuthoritativeMovementForceMin`
-```
-Set the AuthoritativeMovementForce strength.
-
-```
-
-#
-
-`dbd.AutoSwapToBookmarkedInteraction`
-```
-Swap to bookmarked interaction when current interaction ends
-0: off
-1: on
-```
-
-#
-
-`dbd.AutoWalkRadius`
-```
-The radius in which the auto-walker walks
-```
-
-#
-
-`dbd.AutoWalkSpeed`
-```
-The speed that the character will walk automatically
-```
-
-#
-
-`dbd.ChargingEnabled`
-```
-Activate/Deactivate charging.
-```
-
-#
-
-`dbd.DebugAimAssist`
-```
-Debug Aim Assist Component.
-```
-
-#
-
-`dbd.DebugArmIKSensor`
-```
-Display raycast used for the ArmIKSensor.
-0: off
-1: on
-```
-
-#
-
-`dbd.DebugAuthoritativeMovement`
-```
-Prints the authoritative movement states.
-0: off
-1: on
-```
-
-#
-
-`dbd.DebugBlinkAttack`
-```
-Makes all attacks blink attacks.
-```
-
-#
-
-`dbd.DebugBlinkScanResult`
-```
-Display clear path debug info.
-0: off
-1: on
-```
-
-#
-
-`dbd.DebugCameraControl`
-```
-Debug virtual joystick control for camera
-```
-
-#
-
-`dbd.DebugClearPath`
-```
-Display clear path debug info.
-0: off
-1: on
-```
-
-#
-
-`dbd.DebugCollisionRaycast`
-```
-Display collision raycast debug info.
-0: off
-1: on
-```
-
-#
-
-`dbd.DebugEndGameCollapse`
-```
-Show any times related to the end game collapse.
-0: off
-1: on
-```
-
-#
-
-`dbd.DebugFindFloor`
-```
-When set to 1, s.
-
-```
-
-#
-
-`dbd.DebugFindFloorRaycast`
-```
-Display clear path debug info.
-0: off
-1: on
-```
-
-#
-
-`dbd.DebugFurthestClearLocation`
-```
-Display clear path debug info.
-0: off
-1: on
+Show how many time the survivor has to complete the escape trap interaction before freeing himself
 ```
 
 #
@@ -3440,55 +3142,9 @@ Draw the ground detector ray trace.
 
 #
 
-`dbd.DebugLocationClear`
+`dbd.DebugReleaseTwinLocation`
 ```
-Display clear path debug info.
-0: off
-1: on
-```
-
-#
-
-`dbd.DebugObstruction`
-```
-Shows the debug boxes on the Host for obstruction detection.
-```
-
-#
-
-`dbd.DebugRpcSpamServer`
-```
-Spam the server of costly RPCs every frame.
-```
-
-#
-
-`dbd.DebugSlashObstruction`
-```
-Shows the debug boxes on the Host for the Killer's Slash obstruction detection.
-```
-
-#
-
-`dbd.DebugSnapping`
-```
-Display snapping debug info.
-0: off
-1: on
-```
-
-#
-
-`dbd.DebugTrapPlacement`
-```
-If non zero, show visual debug information about the trap placement. Else, nothing.
-```
-
-#
-
-`dbd.DisableAIBotGesture`
-```
-Disable gesture input for AI bots.
+0/1 Enable/Disable
 ```
 
 #
@@ -3517,14 +3173,6 @@ callstack depth levels
 
 #
 
-`dbd.DisableInteractions`
-```
-disable interactions progressively, where each level is loosely related to a callstack depth level
-callstack depth levels
-```
-
-#
-
 `dbd.DisableTicks`
 ```
 disable ticks
@@ -3533,139 +3181,9 @@ any value other that 0 disables all ticking
 
 #
 
-`dbd.DisplayDispatchedEvent`
-```
-Show each dispatched event.
-0: off
-1: on
-```
-
-#
-
-`dbd.DropStaggerFix`
-```
-Enable/Disable the drop stagger fix. Enabled by default. 
-1 for true
-```
-
-#
-
-`dbd.EditorGameFlowContextSystemEntryPoint`
-```
-Id of the game flow screen at which to start in editor.
-  See GameFlowContextGroup.h for the possible values.
-
-```
-
-#
-
-`dbd.EnableAnyAuthoritativeMovement`
-```
-Allows authoritative movment from performing its function.
-0: off
-1: on
-```
-
-#
-
-`dbd.EnableAutoCheckForNewsContentOnRoleSelection`
-```
-Enables AutoChecking For News Content On RoleSelection for debugging. 1: Enables 0: Disables
-```
-
-#
-
-`dbd.EnableCheatsPersistently`
-```
-Enable cheat persistently accross travels.
-0: off
-1: on
-```
-
-#
-
-`dbd.EnableMaxGeneratorsAndHooks`
-```
-If non-zero, forces maximum number of generators and hooks to spawn regardless of actual player count
-```
-
-#
-
-`dbd.EnablePawnCollision`
-```
-Enable collision between pawn and/or killer.
-0: off
-1: on
-```
-
-#
-
-`dbd.EnableRootMotionDuringSnap`
-```
-Show the current character's velocity.
-0: off
-1: on
-```
-
-#
-
-`dbd.EnableSpecialEventCinematics`
-```
-Enables special event cinematics. 1: Enables 0: Disables
-```
-
-#
-
-`dbd.FastAttackCoolDown`
-```
-When 1 (default 0), makes attack cooldown ultra fast.
-0: off
-1: on
-```
-
-#
-
-`dbd.FindFloorPrecision`
-```
-Scale on the capsule casted during find floor checks (between epsilon and 1).
-
-```
-
-#
-
-`dbd.FlashlightPrintOccluder`
-```
-1: Print the current occluder if any. 0(default): Do nothing.
-```
-
-#
-
-`dbd.ForceAoS`
-```
-Forces the act of settlement (ie, assume the user is japanese ).
-true: forces the act of settelment
-```
-
-#
-
-`dbd.ForcePrivateMatchAPI`
-```
-0 - Do not force private match API.
-1 - Force private match API
-```
-
-#
-
 `dbd.ForceUnconstrainedAspectRatio`
 ```
 Set in device profile to force unconstrained aspect ratio on cameras. if set to 1: Force all cameras to unlock the aspect ratio. (Never black bars on widescreen) if set to 2: Force all cameras to lock the aspect ratio. (Always black bars on widescreen) if set to any other positive value, including 0: Use default as set on camera component.
-```
-
-#
-
-`dbd.IgnoreGameEndConditions`
-```
-Game will never end even if conditions are met
 ```
 
 #
@@ -3684,156 +3202,9 @@ No description.
 
 #
 
-`dbd.InterpolateIndicatorPosition`
-```
-Interpolate indicator position.
-0: off
-1: on
-```
-
-#
-
-`dbd.ItsAlive`
-```
-Makes the current player move of its own volition1 : Affect all characters2 : Affect only campers
-```
-
-#
-
-`dbd.ItsAliveMultiplier`
-```
-Multiplier on the rotation speed.
-```
-
-#
-
-`dbd.LaunchTutorialOnFirstPlay`
-```
-If non-zero, the flow will use launch the turorials upon plaing the game for the first time.
-```
-
-#
-
-`dbd.LoadingScreenDebug`
-```
-Show loading screen debug.
-0: off
-1: on
-```
-
-#
-
-`dbd.LoadingScreenDelay`
-```
-Add arficial loading screen delay
-```
-
-#
-
-`dbd.LoadingScreenFailure`
-```
-Trigger an artificial loading screen failure. Enabled:1 Disabled:0
-```
-
-#
-
-`dbd.LoadingScreenFailureFallback`
-```
-Set the transition to where dbd.LoadingScreenFailure should redirect.
-```
-
-#
-
-`dbd.LoadingScreenFailureTarget`
-```
-Set the transition for which dbd.LoadingScreenFailure should trigger.
-```
-
-#
-
-`dbd.LogObsessionInitialization`
-```
-Whether or not to log the obsession initialization steps
-  0: log OFF
-  1: log ON
-
-```
-
-#
-
 `dbd.LongPressDelay`
 ```
 Delay before triggering a long press event on button.
-```
-
-#
-
-`dbd.LunarDontRemoveLightOnHook`
-```
-When 1 (default 0), hooked player does not loose light.
-0: off
-1: on
-```
-
-#
-
-`dbd.OnlyStopGainingChargesWhilePhaseWalking`
-```
-When 0, gain charges when not interacting. When 1, gain charges when not phase walking.
-0: off
-1: on
-```
-
-#
-
-`dbd.OverrideConnectionOptionMatchId`
-```
-Override actual matchId in connection options.
-```
-
-#
-
-`dbd.OverrideConnectionOptionMirrorsId`
-```
-Override actual mirrors id in connection options.
-```
-
-#
-
-`dbd.OverrideConnectionOptionPlatformAccountId`
-```
-Override actual platform account id in connection options.
-```
-
-#
-
-`dbd.OverrideCrossfriendsEnabled`
-```
-Override Crossfriends enabled (0 : disable, 1 : enable, 2 : default behaviour)
-```
-
-#
-
-`dbd.OverrideDedicatedServerProvider`
-```
-Indicates to Kraken whether you would like the game hosted in GameLift or manually.
-Valid values: Kraken Gamelift
-```
-
-#
-
-`dbd.OverrideNetworkEncryption`
-```
-0 - Do not override.
-1 - Use encryption
-2 - Don't use encryption.
-```
-
-#
-
-`dbd.OverridePartyPrivacy`
-```
-Overrides default party privacy
 ```
 
 #
@@ -3845,249 +3216,9 @@ Set in device profile to enable the use of Atlanta Controls flow
 
 #
 
-`dbd.PreventDropStaggerFixOnWalkableSlope`
-```
-Enable/Disable the drop stagger fix on walkable slope. Disabled by default. 
-1 for true
-```
-
-#
-
-`dbd.PrintMovementInfos`
-```
-Enable/Disable the display of character movement informations. Disabled by default. 
-1 for true
-```
-
-#
-
-`dbd.ProceduralMapDebugManagedElement`
-```
-Toggles the informations displayed on the map
-```
-
-#
-
-`dbd.ProceduralMapDebugMode`
-```
-Toggles the informations displayed on the map
-```
-
-#
-
-`dbd.ProceduralMapDebugSpawners`
-```
-Toggles the informations displayed on the map
-```
-
-#
-
-`dbd.ProceduralTimeoutSeconds`
-```
-Amount of time until we say 'Procedural, you've taken WAY too long'.
-```
-
-#
-
 `dbd.RenjirosBloodyGloveVersion`
 ```
 Set to 1 for the new version of the Oni's add on Renjiro's Bloody Glove
-```
-
-#
-
-`dbd.ShowAssetLibraryDebug`
-```
-Show assets library loading debug.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowBlindDebugInfo`
-```
-Show blind debug info.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowChaseDebugInfo`
-```
-When 1 (default 0), prints chase debug info to screen.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowContextSystemDebug`
-```
-Show context system debug info.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowCustomizationItems`
-```
-Show all equipped customization items.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowEngineWarnings`
-```
-Show engine perf/net warning
-```
-
-#
-
-`dbd.ShowExtendedVersionInfos`
-```
-Show some build version debug informations (engine time, matchmaking version, kraken env, etc.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowGameEndStats`
-```
-Shows the game end stats after the game ends for a short time.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowHistogram`
-```
-Shows a histogram of whatever is rendered on-screen.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowLoudNoiseMesh`
-```
-Renders the loud noise mesh normally instead of to the effects buffer.
-```
-
-#
-
-`dbd.ShowMatchmaking`
-```
-Show the current matchmaking status.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowNetSynchedServerTime`
-```
-Display the local value of the net synched server time for debugging.
-```
-
-#
-
-`dbd.ShowPings`
-```
-Shows the ping of every clients.
-```
-
-#
-
-`dbd.ShowTurnRate`
-```
-Show information about turn rates
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowVelocityVector`
-```
-Draw a debug line to represent the character's velocity.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowVersionNumber`
-```
-Show version number.
-0: off
-1: on
-```
-
-#
-
-`dbd.ShowVialCharge`
-```
-Show the current character's Vial charge.
-0: off
-1: on
-```
-
-#
-
-`dbd.SimulatePlayerDisconnectionDuringLoading`
-```
-Simulates player disconnection during loading
-```
-
-#
-
-`dbd.SimulateTotalNetworkFailureOnDisconnection`
-```
-Simulate a total network failure on disconnection.
-0: off
-1: on
-```
-
-#
-
-`dbd.SpawnEverything`
-```
-Force every actor spawners to spawn their gameplay object. Start game with specific killer to spawn killer specific objects in place of things such as chests.
-```
-
-#
-
-`dbd.SpawnSpecialItemCount`
-```
-When using dbd.SpawnEverything, add n number of special behaviour items. If no special behaviour item is specified, the first special behaviour item defined in the procedural generation data will be used.
-```
-
-#
-
-`dbd.SpectateSmoothSpeed`
-```
-Set the spectate smooth speed.
-```
-
-#
-
-`dbd.SplashScreenSeparateTranslucencyScreenPercentage`
-```
-Determines the separate translucency screen percentage used in the splash screen
-```
-
-#
-
-`dbd.StadiaCharacterCrowdChoicePollDuration`
-```
-Changes how long the Character Selection Crowd Choice poll lasts for
 ```
 
 #
@@ -4106,20 +3237,6 @@ Enables Stadia Crowd Choice Mocking without any Stadia APIs, such as for iterati
 
 #
 
-`dbd.StadiaFakeGamePad`
-```
-Enables Faking the various Gamepads Stadia support for UI checking. 1: Enables 0: Disables
-```
-
-#
-
-`dbd.StadiaGamePadType`
-```
-Fakes at the UI level, a supported Stadia Gamepad, noted requires an actual connected gamepad button press to update: (int32) 0:Invalid 1:Xbox 2:Stadia 3:PS 4:Switch Pro
-```
-
-#
-
 `dbd.StadiaMockPollFirstOptionVoteCount`
 ```
 Fakes a vote count for a Crowd Poll. Currently only on Windows: (int32) number of votes for FIRST vote option
@@ -4134,90 +3251,57 @@ Fakes a vote count for a Crowd Poll. Currently only on Windows: (int32) number o
 
 #
 
-`dbd.StadiaRoleCrowdChoicePollDuration`
+`dbd.TwinAllowDestroyWhilePossessed`
 ```
-Changes how long the Role Selection Crowd Choice poll lasts for
-```
-
-#
-
-`dbd.StrafeAnimFix`
-```
-Activate/Deactivate strafe fix.
+Allow survivors to destroy the twin while he's controlled by the player.
 0: off
 1: on
 ```
 
 #
 
-`dbd.SuperCharger`
+`dbd.TwinAllowLockerInteraction`
 ```
-Charge anything in a single frame!
-```
-
-#
-
-`dbd.SuppressTerrorRadiusToAwakeSurvivors`
-```
-Suppress Terror Radius to Awake Survivors
-```
-
-#
-
-`dbd.UnlockAllCustomizationItems`
-```
-Unlock all customization items.
+To activate/deactivate the twin locker blocker feature.
 0: off
 1: on
 ```
 
 #
 
-`dbd.UseAtlantaActivatablePerks`
+`dbd.TwinDebugJumpNormalImpact`
 ```
-Set in device profile to select the Atlanta Activatable Perks
-```
-
-#
-
-`dbd.UseAtlantaBloodweb`
-```
-Set in device profile to enable the use of Atlanta Bloodweb flow
+Print a green arrow if the normal at the hit point is not considered as an obstruction, red if it is.
+0: off
+1: on
 ```
 
 #
 
-`dbd.UseAtlantaCDNBucketChangelist`
+`dbd.TwinDebugWrongLanding`
 ```
-Set in device profile to redirect Atlanta CDN Patching to use the changelist as part of the S3 Bucket
-```
-
-#
-
-`dbd.UseAtlantaCDNPatching`
-```
-Set in device profile to enable the use of Atlanta CDN Patching
+Will prevent the twin from being destroyed when landing on a wrong location every time to debug easily.
+Also print if he's on a wrong location or not.
+0: off
+1: on
 ```
 
 #
 
-`dbd.UseAtlantaCatalog`
+`dbd.TwinNoAutoDestroy`
 ```
-Set in device profile to enable the use of Atlanta Catalog
-```
-
-#
-
-`dbd.UseAtlantaCharacterProgression`
-```
-Set in device profile to enable the use of Atlanta Character Progression
+Deactivate the auto destroy of the twin.
+0: auto destroy activated
+1: auto destroy deactivated
 ```
 
 #
 
-`dbd.UseAtlantaContent`
+`dbd.TwinShowJumpPreview`
 ```
-Set in device profile to enable the use of Atlanta Content
+Show the preview of the twin jump.
+0: off
+1: on
 ```
 
 #
@@ -4229,119 +3313,11 @@ Set in device profile to enable the use of Atlanta Controls flow
 
 #
 
-`dbd.UseAtlantaEntity`
-```
-Set in device profile to enable the use of Atlanta Entity
-```
-
-#
-
-`dbd.UseAtlantaFixedMaps`
-```
-Set in device profile to enable the use of Atlanta Fixed Maps
-```
-
-#
-
-`dbd.UseAtlantaKrakenContentVersion`
-```
-Set in device profile to select the Atlanta Kraken Content Version
-```
-
-#
-
-`dbd.UseAtlantaLighting`
-```
-Set in device profile to enable the use of Atlanta Lighting
-```
-
-#
-
-`dbd.UseAtlantaMatchmaking`
-```
-Set in device profile to enable the use of Atlanta matchmaking flow
-```
-
-#
-
-`dbd.UseAtlantaOutlines`
-```
-Set in device profile to enable the use of Atlanta Outlines
-```
-
-#
-
-`dbd.UseAtlantaQualitySettings`
-```
-Set in device profile to enable the use of Atlanta Quality Settings
-```
-
-#
-
-`dbd.UseAtlantaRituals`
-```
-Set in device profile to enable the use of Atlanta Rituals
-```
-
-#
-
-`dbd.UseAtlantaUI`
-```
-Set in device profile to enable the use of Atlanta UI flow
-```
-
-#
-
-`dbd.UseDedicatedServer`
-```
-If non-zero, the flow will use the dedicated server connection flow, else will use listen server.
-```
-
-#
-
-`dbd.UseFixedMap`
-```
-Use fixed tile map for level generation. Note: fixed tile map must exist for the selected map. Use DBD_BuildFromMap to force which map to load.
-```
-
-#
-
-`dbd.UseFriendSuggestionsScaleform`
-```
-Populate the friendlist with 'recently played with' and 'friend suggestion' lists. Not used on Mobile.
-0: off
-1: on
-```
-
-#
-
-`dbd.UseGestureContent`
-```
-Set in device profile to enable the use of Gesture Content
-```
-
-#
-
 `dbd.UseLocalTime`
 ```
 Use local time for net time checks.
 0: off
 1: on
-```
-
-#
-
-`dbd.UseRuntimeReflectionCaptureSpawner`
-```
-Set in device profile to enable the use of the reflection capture spawn and capture at runtime
-```
-
-#
-
-`dbd.WiggleImpulse`
-```
-Enable/Disable adding impulse to slasher while wiggling. Enabled by default. 
-i: 1 for true
 ```
 
 #
@@ -4395,13 +3371,6 @@ If enabled, scaleform doesn't consume keyboard input
 
 #
 
-`dbd.debug.StalkerComponent`
-```
-Should we emit verbose logs about how the component is behaving?
-```
-
-#
-
 `dbd.hitValidation.AlwaysRefuseHit`
 ```
 When set to 1, hit will always be refuse
@@ -4419,41 +3388,6 @@ When set to 1, display debugging info about a hit.
 `dbd.projectile.AlwaysRejectPlayerHit`
 ```
 0/1 If true, server will reject every hits coming from a predictive client
-```
-
-#
-
-`dbd.scalability.allowAssetManagerForCharacterItems`
-```
-Should we preload characters items (thus sacrifice memory for future performance)
-```
-
-#
-
-`dbd.scalability.allowAssetManagerForGameAssets`
-```
-Should we preload game assets (thus sacrifice memory for future performance)
-```
-
-#
-
-`dbd.scalability.allowAssetManagerForGlobalAssets`
-```
-Should we preload global assets (thus sacrifice memory for future performance)
-```
-
-#
-
-`dbd.scalability.allowAssetManagerForMenuAssets`
-```
-Should we preload menu assets (thus sacrifice memory for future performance)
-```
-
-#
-
-`dbd.scalability.allowAssetManagerForTutorialAssets`
-```
-Should we preload tutorial assets (thus sacrifice memory for future performance)
 ```
 
 #
@@ -8238,6 +7172,13 @@ Logs amount of data removed from a cache after processing
 
 #
 
+`p.onlySimulateWhenSmoothingIsCompleted`
+```
+Only simulate when smoothing is completed.0: Disable, 1: Enabled
+```
+
+#
+
 `pak.DumpBlocks`
 ```
 No description.
@@ -10443,16 +9384,18 @@ Whether to process VolumetricFog pass using async compute.
 
 #
 
-`r.EnableChaseVisualCue`
+`r.EnableDebugSpam_GetObjectPositionAndScale`
 ```
-The visual cue for character in chase is turned on when this is 1
+Enables or disables debug log spam for a bug in FParticleSystemSceneProxy::GetObjectPositionAndScale()
 ```
 
 #
 
-`r.EnableDebugSpam_GetObjectPositionAndScale`
+`r.EnableDirectionalCachedShadows`
 ```
-Enables or disables debug log spam for a bug in FParticleSystemSceneProxy::GetObjectPositionAndScale()
+Whether to use directional cached shadows
+0: off
+1: on (default)
 ```
 
 #
@@ -11043,13 +9986,6 @@ If set to 0, we won't do any flushes for streaming textures. This is safe becaus
 ```
  0: disabled
  1: enabled (default)
-```
-
-#
-
-`r.FootStepsMaterialParameterThreshold`
-```
-FootSteps material parameters are set when the threshold is reached.
 ```
 
 #
@@ -12795,15 +11731,6 @@ Used to control which lights cast dynamic shadows at runtime, are active, etc.
 `r.ListSceneColorMaterials`
 ```
 No description.
-```
-
-#
-
-`r.LobbyScreenPercentage`
-```
-To render the lobby in a different resolution than the ScreenPercentage.
-The original ScreenPercentage will be used for the game.
-0.f feature is disabeld.
 ```
 
 #
@@ -15485,6 +14412,44 @@ Allows quick material test by remapping the roughness at 0 to a new value (0..1)
 
 #
 
+`r.SNDBSShaderCompile`
+```
+Enables or disables the use of SN-DBS to build shaders.
+0: Local builds only. 
+1: Distribute builds using SN-DBS (default).
+```
+
+#
+
+`r.SNDBSShaderCompile.BatchGroupSize`
+```
+Specifies the number of batches to fill with shaders.
+Shaders are spread across this number of batches until all the batches are full.
+This allows the SN-DBS compile to go wider when compiling a small number of shaders.
+Default = 512
+
+```
+
+#
+
+`r.SNDBSShaderCompile.BatchSize`
+```
+Specifies the number of shaders to batch together into a single SN-DBS task.
+Default = 16
+
+```
+
+#
+
+`r.SNDBSShaderCompile.JobTimeout`
+```
+The number of seconds to wait for additional shader jobs to be submitted before starting a build.
+Default = 0.5
+
+```
+
+#
+
 `r.SSGI.Enable`
 ```
 Whether to enable SSGI (defaults to 0).
@@ -16198,6 +15163,13 @@ Whether to use fast-math optimisations in shaders.
 
 #
 
+`r.Shaders.FileOperationRetryTimeout`
+```
+Seconds trying to do file operation. This is mostly to avoid issues with antivirus or other system process.
+```
+
+#
+
 `r.Shaders.FlowControlMode`
 ```
 Specifies whether the shader compiler should preserve or unroll flow-control in shader code.
@@ -16241,56 +15213,6 @@ Enabled shader compiler validation warnings and errors.
 `r.Shaders.ZeroInitialise`
 ```
 Whether to enforce zero initialise local variables of primitive type in shaders. Defaults to 1 (enabled). Not all shader languages can omit zero initialisation.
-```
-
-#
-
-`r.Shadow.ASM.AlwaysBuildAtlas`
-```
-If not zero, adaptive shadow maps get built every frame. Useful for GPU captures.
-```
-
-#
-
-`r.Shadow.ASM.Enable`
-```
-0: Use the default shadow system.1: Adaptive shadow map system is enabled (default).
-```
-
-#
-
-`r.Shadow.ASM.Freeze`
-```
-0: Don't freeze (default).1: Display ASM shadows.Useful for profiling the cost of ASM.
-```
-
-#
-
-`r.Shadow.ASM.Quality`
-```
-0: No adaptive shadow map.
-1-5 : Quality level to apply. The higher the better. Default is 4.
-```
-
-#
-
-`r.Shadow.ASM.RebuildAllAtlases`
-```
-No description.
-```
-
-#
-
-`r.Shadow.ASM.ShowDebugFrustums`
-```
-If not zero, shows all the frustums currently used by the adaptive shadow map system.
-```
-
-#
-
-`r.Shadow.ASM.Visible`
-```
-0: Don't display ASM shadows.1: Display ASM shadows (default).Useful for profiling the cost of ASM.
 ```
 
 #
@@ -17727,13 +16649,6 @@ No description.
 
 #
 
-`r.SwitchDocked`
-```
-Set Switch current operation mode for UI (0 : handled, 1 : docked)
-```
-
-#
-
 `r.TemporalAA.AllowDownsampling`
 ```
 Allows half-resolution color buffer to be produced during TAA. Only possible when motion blur is off and when using compute shaders for post processing.
@@ -19126,48 +18041,6 @@ Number of frames before recycling freed uniform buffers .
 `r.d3d11.dumpliveobjects`
 ```
 No description.
-```
-
-#
-
-`r.dbd.HideAllHUD`
-```
-Hides all HUD components
-```
-
-#
-
-`r.dbd.HideProfileInfo`
-```
-Hides the player profile information
-```
-
-#
-
-`r.dbd.ParadiseShowUI`
-```
-Ensures the UI is visible or not
-```
-
-#
-
-`r.dbd.PartyManagementDebug`
-```
-Get screen messages on PartyManagement events
-```
-
-#
-
-`r.dbd.ProceduralDebug`
-```
-Get screen messages on generation errors
-```
-
-#
-
-`r.dbd.ShowUI`
-```
-Ensures the UI is visible or not
 ```
 
 #
